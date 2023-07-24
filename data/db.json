@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "pizza"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "blue bag"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "bread"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "Dave Gray"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "Cookies"
+    }
+  ]
+}
