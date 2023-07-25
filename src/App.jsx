@@ -10,7 +10,6 @@ function App() {
 const API_URL = ' http://localhost:3500/items';
 
 const [items, setItems] = useState([]);
-
 const [newItem, setNewItem] = useState('');
 const [search, setSearch] = useState('');
 const [fetchError, setFetchError] = useState(null);
@@ -88,6 +87,7 @@ const handleDelete = async (id) => {
   const result = await apiRequest(reqUrl, deleteOptions);
   if(result) setFetchError(result);
 }
+
 
 //handles the submission of a new list
 const handleSubmit = (e) => {
